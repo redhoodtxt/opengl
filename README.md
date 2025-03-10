@@ -21,4 +21,4 @@ gengi.txt / redhoodtxt
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the [MIT](./LICENSE) License - see the LICENSE.md file for details

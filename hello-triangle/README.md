@@ -23,8 +23,8 @@ mkdir build && cd build
 cmake ..
 make .
 cd bin 
-./hello triangle
-```
+./hello-triangle
+``` 
 
 ## Authors
 
@@ -38,7 +38,7 @@ gengi.txt / redhoodtxt
     * Initial Release
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the [MIT] License - see the LICENSE.md file in root folder for details
 
 ## Acknowledgments
 
