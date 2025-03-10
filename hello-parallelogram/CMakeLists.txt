@@ -18,18 +18,18 @@ find_package(OpenGL REQUIRED)
 
 
 # Source files for the project
-set(CHIP8_SOURCES
+set(PARALLELOGRAM_SOURCES
     external/glad/src/glad.c
     src/main.cpp
 )
 
 # Header files (optional, not necessary for compilation)
-set(CHIP8_HEADERS
+set(PARALLELOGRAM_HEADERS
     external/glad/include/glad/glad.h
 )
 
 # Create executable for the CHIP-8 emulator
-add_executable(hello-parallelogram ${CHIP8_SOURCES} ${CHIP8_HEADERS})
+add_executable(hello-parallelogram ${PARALLELOGRAM_SOURCES} ${PARALLELOGRAM_HEADERS})
 
 # Include necessary directories
 target_include_directories(hello-parallelogram PUBLIC

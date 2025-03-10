@@ -18,18 +18,18 @@ find_package(OpenGL REQUIRED)
 
 
 # Source files for the project
-set(CHIP8_SOURCES
+set(TRIANGLE_SOURCES
     external/glad/src/glad.c
     src/main.cpp
 )
 
 # Header files (optional, not necessary for compilation)
-set(CHIP8_HEADERS
+set(TRIANGLE_HEADERS
     external/glad/include/glad/glad.h
 )
 
 # Create executable for the CHIP-8 emulator
-add_executable(hello-triangle ${CHIP8_SOURCES} ${CHIP8_HEADERS})
+add_executable(hello-triangle ${TRIANGLE_SOURCES} ${TRIANGLE_HEADERS})
 
 # Include necessary directories
 target_include_directories(hello-triangle PUBLIC
