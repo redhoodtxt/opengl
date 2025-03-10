@@ -18,20 +18,20 @@ find_package(OpenGL REQUIRED)
 
 
 # Source files for the project
-set(CHIP8_SOURCES
+set(SHADERS_SOURCES
     external/glad/src/glad.c
     src/main.cpp
     src/shader.cpp
 )
 
 # Header files (optional, not necessary for compilation)
-set(CHIP8_HEADERS
+set(SHADERS_HEADERS
     external/glad/include/glad/glad.h
     ./include/shaders.h
 )
 
 # Create executable for the CHIP-8 emulator
-add_executable(shaders ${CHIP8_SOURCES} ${CHIP8_HEADERS})
+add_executable(shaders ${SHADERS_SOURCES} ${SHADERS_HEADERS})
 
 # Include necessary directories
 target_include_directories(shaders PUBLIC

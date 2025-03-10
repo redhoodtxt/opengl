@@ -1,10 +1,10 @@
-# Hello Parallelogram
+# Shaders
 
-A program to display a parallelogram
+A program to display a parallelogram with extensive use of shaders, namely the vector and fragment shaders
 
 ## Description
 
-Using OpenGL to display a parallelogram . Helped me learn abit about element buffer objects and indices. Written in C++.
+Using OpenGL to display a parallelogram . Helped me learn A LOT about shaders. Written in C++.
 
 ## Getting Started
 
@@ -23,7 +23,7 @@ mkdir build && cd build
 cmake ..
 make .
 cd bin 
-./hello-parallelogram
+./shaders
 ```
 
 ## Authors
@@ -43,5 +43,8 @@ This project is licensed under the [MIT] License - see the LICENSE.md file in ro
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
-* https://learnopengl.com/Getting-started/Hello-Triangle
+* https://learnopengl.com/Getting-started/Shaders
 * https://docs.gl/
+* [How Shaders Work](https://www.youtube.com/watch?v=5W7JLgFCkwI&list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2&index=6&t=17s)
+* [Writing Shaders](https://www.youtube.com/watch?v=71BLZwRGUJE)
+* [Shaders Best Practices](https://www.youtube.com/watch?v=2pv0Fbo-7ms)
