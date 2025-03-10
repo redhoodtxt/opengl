@@ -15,7 +15,8 @@ Navigate into the respective project directories, there's more details in the re
 gengi.txt / redhoodtxt
 
 ## Version History
-
+* 0.1.1
+    * Hello Parallelogram added
 * 0.1
     * Initial Release - Hello Triangle
 
