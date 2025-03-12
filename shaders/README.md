@@ -28,8 +28,6 @@ cd bin
 
 ## Authors
 
-Contributors names and contact info
-
 gengi.txt / redhoodtxt
 
 ## Version History

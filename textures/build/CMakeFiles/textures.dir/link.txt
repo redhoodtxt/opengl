@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/textures.dir/external/glad/src/glad.c.o CMakeFiles/textures.dir/src/main.cpp.o CMakeFiles/textures.dir/src/shader.cpp.o CMakeFiles/textures.dir/src/texture.cpp.o CMakeFiles/textures.dir/src/stb_image.cpp.o -o bin/textures  external/glfw-3.4/src/libglfw3.a /usr/lib/x86_64-linux-gnu/libGL.so /usr/lib/x86_64-linux-gnu/librt.a -lm -ldl 
