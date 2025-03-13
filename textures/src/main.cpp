@@ -12,10 +12,10 @@
 float vertices[] = {
 	// parallelogram
 	// vertice pos 		vertice colour
-	 1.0f,  0.5f, 0.0f,	1.0f, 0.0f, 1.0f, 1.0f, 1.0f,// top right , purple 
-	 0.0f, -0.5f, 0.0f, 1.0f, 0.0f, 0.0f, 1.0f, 0.0f,// bottom right, red 
-	-1.0f, -0.5f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f,// bottom left, blue 
-	 0.0f,  0.5f, 0.0f, 1.0f, 0.0f, 1.0f, 0.0f, 1.0f// top left, purple 
+	 0.5f,  0.5f, 0.0f,	1.0f, 0.0f, 1.0f, 1.0f, 1.0f,   // top right , purple 
+	 0.5f, -0.5f, 0.0f, 1.0f, 0.0f, 0.0f, 1.0f, 0.0f,  // bottom right, red 
+	-0.5f, -0.5f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f, // bottom left, blue 
+	-0.5f,  0.5f, 0.0f, 1.0f, 0.0f, 1.0f, 0.0f, 1.0f // top left, purple 
 };  
 
 unsigned int indices[] = {

@@ -10,5 +10,5 @@ void main()
 {
 //    frag_colour = vertex_colour;
 //   	frag_colour = new_colour;
-    frag_colour = texture(ourTexture, tex_coord) /** vec4(vertex_colour, 1.0)*/;
+    frag_colour = texture(ourTexture, tex_coord) /* * vec4(vertex_colour, 1.0) */;
 };
